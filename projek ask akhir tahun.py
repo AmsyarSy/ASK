@@ -28,7 +28,7 @@ def menuLuas():
     print("\n" +("*"*46))
     print("Menu Mengira Luas")
     print("*"*46)
-    print("1. Segi empat tepat")
+    print("1. Segi Empat tepat")
     print("2. Segi tiga")
     print("3. Trapezium")
     print("4. Bulatan")
@@ -87,6 +87,7 @@ def KiraCetak(formula, jenis_opr):
     print(jenis_opr ,"ialah", eval(formula), "\n")
 
 
+#---------------------------------------------------------------
 while True:
     pilihan = []
     pilihan.append(dptPilihan(menu()))
@@ -101,3 +102,4 @@ while True:
         exit()
     nilai = dptNilai(pilihan)
     KiraCetak(nilai[0], nilai[1])
+    #---------------------------------------------------------------
